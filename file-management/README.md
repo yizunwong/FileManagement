@@ -75,20 +75,20 @@ Displays user-friendly messages for errors (e.g., missing file) and successful o
 
 ## Features and Operations
 1. ## Login
-Open the Login Page.
-Enter your username and password.
-Click the Login button to access the dashboard.
+- Open the Login Page.
+- Enter your username and password.
+- Click the Login button to access the dashboard.
 
 2. ## File Upload
-Navigate to the Upload Section.
-Click on the Choose File button and select a file from your system.
-Click the Upload button to upload the file.
-If a file with the same name exists, the system will prompt you to resolve the conflict by either overwrite
+- Navigate to the Upload Section.
+- Click on the Choose File button and select a file from your system.
+- Click the Upload button to upload the file.
+- If a file with the same name exists, the system will prompt you to resolve the conflict by either overwrite
 or add as new file.
 
 3. ## File Management
-View your uploaded files in the Dashboard Table.
-Each file entry provides the following actions:
-View: Open the file.
-Delete: Remove the file from the system.
-Share: Share the file.
+- View your uploaded files in the Dashboard Table.
+- Each file entry provides the following actions:
+- View: Open the file.
+- Delete: Remove the file from the system.
+- Share: Share the file.
