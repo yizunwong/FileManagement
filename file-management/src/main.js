@@ -1,14 +1,21 @@
-import './assets/main.css'
-
 import { createApp } from 'vue'
-import { createPinia } from 'pinia'
-
 import App from './App.vue'
 import router from './router'
+import { createPinia } from 'pinia'
+import { useAuthStore } from '@/stores/authStore'
+import '@fortawesome/fontawesome-free/css/all.css';
+import '@fortawesome/fontawesome-free/js/all.js';
+import '@/assets/main.css';
+
+
 
 const app = createApp(App)
-
-app.use(createPinia())
+const pinia = createPinia()
+app.use(pinia)
 app.use(router)
 
-app.mount('#app')
+const authStore = useAuthStore()
+
+authStore.restoreSession().finally(() => {
+  app.mount('#app')
+})
